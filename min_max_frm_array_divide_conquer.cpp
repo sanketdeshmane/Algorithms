@@ -1,4 +1,4 @@
-
+//find minimum and maximum from list using divide and conquer 
 #include<iostream>
 #include<bits/stdc++.h>>
 using namespace std;
