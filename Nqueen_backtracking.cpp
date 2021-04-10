@@ -3,7 +3,7 @@
 using namespace std;
 bool place_queen(int x[], int k, int col);
 void display_board(int x[], int size);
-void Nqueen_r(int x[],int size, int k)
+void Nqueen_r(int x[],int size, int k)     //you can assume k as row no also
 {
 	for(int col=0;col<size;col++)
 	{
