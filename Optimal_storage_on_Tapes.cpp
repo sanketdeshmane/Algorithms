@@ -1,3 +1,4 @@
+//3) Write a program to implement optimal storage tape using greedy approach.
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -36,3 +37,14 @@ int main(int argc, char** argv)
 	findOrder(list,n);
 	return 0;
 }
+/*
+Enter no of programmes4
+Enter the prgram size of each programme
+2
+3
+5
+6
+
+Optimal order in which programs are stored is(according to size)  :2    3       5       6
+Mean Retrieval Time of this order is 33
+*/
